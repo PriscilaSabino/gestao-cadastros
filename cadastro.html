@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section class="conteudo">
+        <header class="header">
+          <img src="img/logo 1.png" alt="Logo">
+         <nav class = "menu">
+        <ul>
+                    <li><a href="index.html">Produtos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </header>
+<div class="registroform"> <h1>Formulário de cadastro</h1>
+
+   
+    <form>
+        <div id="nome-form">
+            <h3 class="nome">Nome</h3>
+            <input class="nome" id="nome" type="text" name="nome">
+            
+            <h3 class="nome">CPF</h3>
+            <input class="cpf" type="text" name="cpf" id="cpf"\
+			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ minlength="11" maxlength="11"
+			placeholder="xxx.xxx.xxx-xx">
+
+
+            <h3 class="nome">Data de Nascimento</h3>
+            <input class="dn" id="dn" type="text" class="form-control" placeholder="dd/mm/aaaa" data-mask="00/00/0000" maxlength="10" autocomplete="off">
+
+            <h3 class="nome">Telefone</h3>
+            <input class="tel" id="tel"type="text" class="form-control phone-mask" placeholder="Ex.: 00000-0000">
+
+            <h3 class="nome">Email</h3>
+            <input class="email" type="email" id="email" name="email">
+
+            <h3 class="nome">Endereço</h3>
+            <input class="endereco" id="endereco" type="text" name="endereco">
+            
+            <input class="btn-form" id="salvar "type="button" value="Enviar" onclick='salvar()'>
+        </div>
+    </form>
+    <div id="res">
+        <p></p>
+    </div>
+</div>
+
+
+</div>
+<footer>Priscila Sabino - Hiring Coders 2021</footer>
+</section>
+<script src="./js/main.js"></script>
+</body>
+</html>

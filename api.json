@@ -1,0 +1,26 @@
+[
+    {
+        "preco": 2500,
+        "id": 1,
+        "title": "Nintendo Swith",
+        "thumbnailUrl": "./img/nintendo.png"
+    },
+    {
+            "preco": 5149,
+            "id": 2,
+            "title": "Notebook Gamer Aspire",
+            "thumbnailUrl": "./img/note.png"
+    },
+    {
+        "preco": 4990,
+        "id": 3,
+        "title": "PC Gamer Concórdia",
+        "thumbnailUrl": "./img/pc.png"
+    },
+    {
+        "preco": 229,
+        "id": 4,
+        "title": "Teclado Corsair",
+        "thumbnailUrl": "./img/teclado.png"
+    }
+]

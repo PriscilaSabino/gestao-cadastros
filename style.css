@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(215, 242, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo{
+    width: 978px;
+    height: 1220px;
+    text-align: center;
+    margin: auto;
+    background-color:white;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 978px;
+    height: 80px;
+    background: #88B1C8;
+    padding: 15px 0;
+
+  }
+  .header ul{
+      margin-top:-110px;
+    margin-right: 20px;
+      text-align:right;
+
+
+  }
+  
+  .header ul li {
+    display: inline-flex;
+    margin: 20px;
+    
+    
+  }
+  .header .menu ul li a {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    
+  }
+  .container {
+    padding-top:200px;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+#cards{
+display: inline-flex;
+margin-left: 20px;
+text-align: center;
+}
+
+div.card{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: solid 3px gray;
+    border-radius: 5px ;
+}
+
+
+ button{
+     width: 180px;
+     font-weight: bold;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+
+ .table{
+    text-align: left;
+    padding:30px;
+    
+}
+.lol th, .resultado{
+   text-align: center ;
+   margin-left: 200px;
+}
+
+h3{
+text-align: left;
+margin-top:60px ;
+}
+#limpar-carrinho{
+   
+    margin-top: 20px;
+    width: 90px;
+}
+.btn-sm{
+    width: 30px;
+    margin-left: 10px;
+}
+.carrinho-geral{
+
+    margin-left: 5px;
+    margin-top: 20px;
+    border-top: solid 1px ;
+}
+
+footer{
+    background-color: black;
+    height: 20px;
+    color:white;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 350px;
+    position:end;   
+}
+
+/*Cadastro*/
+.registroform {
+padding-top: 150px;
+text-align: left;
+margin: 20px;
+
+}
+
+form{
+    padding: 10px;
+    border-top: solid 1px;
+    
+}
+
+.nome   {
+    left: 200px;
+    top: -37px;
+    line-height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.cpf{
+    
+    left: 200px;
+    top: -37px;
+    line-height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.dn, .tel{
+    left: 200px;
+    top: -37px;
+    line-height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+    
+}
+.endereco{
+    
+    left: 200px;
+    top: -37px;
+    line-height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.email{
+   
+    left: 200px;
+    top: -37px;
+    line-height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.btn-form{
+    display: block;
+    margin: 60px 1px;
+    text-align: center;
+    border-radius: 6px;
+    border:2px solid;
+    cursor: pointer;
+    padding: 10px 50px;
+}
